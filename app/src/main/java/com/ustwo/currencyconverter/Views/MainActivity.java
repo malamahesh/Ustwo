@@ -1,22 +1,17 @@
-package com.ustwo.currencyconverter;
+package com.ustwo.currencyconverter.Views;
 
-import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.Selection;
 import android.text.TextWatcher;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.Window;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.ustwo.currencyconverter.Views.HorizontalPicker;
+import com.ustwo.currencyconverter.R;
 import com.ustwo.currencyconverter.models.Currency;
 import com.ustwo.currencyconverter.tasks.ConverterTask;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements HorizontalPicker.OnItemSelected, HorizontalPicker.OnItemClicked {
 

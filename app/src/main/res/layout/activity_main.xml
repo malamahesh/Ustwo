@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:textSize="56dp"
         android:text="AUD"
+        android:textColor="#FFF"
         android:layout_below="@+id/imgLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp" />
@@ -38,6 +39,7 @@
         android:gravity="center"
         android:inputType="numberDecimal"
         android:layout_below="@+id/tvAud"
+        android:textColor="#FFF"
         android:layout_centerHorizontal="true" />
 
     <LinearLayout
@@ -90,6 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="30dp"
+        android:textColor="#FFF"
         android:layout_below="@+id/linPicker"
         android:layout_centerHorizontal="true"/>
 

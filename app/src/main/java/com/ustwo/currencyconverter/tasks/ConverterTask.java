@@ -2,7 +2,7 @@ package com.ustwo.currencyconverter.tasks;
 
 import android.os.AsyncTask;
 
-import com.ustwo.currencyconverter.MainActivity;
+import com.ustwo.currencyconverter.Views.MainActivity;
 import com.ustwo.currencyconverter.comms.ConnectionManager;
 import com.ustwo.currencyconverter.models.Currency;
 
